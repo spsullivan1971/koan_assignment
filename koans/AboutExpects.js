@@ -15,8 +15,8 @@ describe("About Expects", function() {
 
   // Some ways of asserting equality are better than others.
   it("should assert equality a better way", function () {
-    var expectedValue = 2;
-    var actualValue = 1 + 1;
+    var expectedValue = 4;
+    var actualValue = 2 + 2;
 
   // toEqual() compares using common sense equality.
     expect(actualValue).toEqual(expectedValue);
@@ -38,6 +38,10 @@ describe("About Expects", function() {
 
   it("should work, right everyone", function () {
     expect(1*5).toEqual(5);
+  });
+
+  it("should create arrays", function () {
+
   });
 
 
